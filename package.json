@@ -1,0 +1,22 @@
+{
+  "name": "siem-threat-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "serve dist -p 3000",
+    "dev": "npm run build && npm run start"
+  },
+  "dependencies": {
+    "@google/genai": "^1.3.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.3"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "serve": "^14.2.3",
+    "fs-extra": "^11.2.0"
+  }
+}

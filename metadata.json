@@ -1,0 +1,5 @@
+{
+  "name": "SIEM Threat Dashboard",
+  "description": "A dashboard application simulating a Security Information and Event Management (SIEM) system, providing an overview of security phases, alerts, log viewing, detection rules, playbooks, and AI-powered insights for threat analysis.",
+  "requestFramePermissions": []
+}
